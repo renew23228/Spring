@@ -1,0 +1,19 @@
+spring:
+  mvc:
+    static-path-pattern: /static/**
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/board
+    username: root
+    password: green502
+
+
+mybatis:
+  type-aliases-package: com.green.board7 #?????
+  mapper-locations: mapper/**/*.xml # ** : ?? ???. * : ?? xml???
+
+
+# swagger / http://localhost:8080/swagger 로 접속하게 해줌
+springdoc:
+  swagger-ui:
+    path: /swagger.html

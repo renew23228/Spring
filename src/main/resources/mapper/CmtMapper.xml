@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.green.board7.cmt.CmtMapper"> <!-- xml파일과 매핑될 인터페이스의 풀네임적는 구간 -->
+    <insert id="insBoardCmt" parameterType="BoardCmtInsDto">
+        insert into t_board_cmt
+        ( iboard, ctnt, writer, pw )
+        values
+        ( #{iboard}, #{ctnt}, #{writer}, #{pw} )
+    </insert>
+
+    <!-- insert문 다른 형식
+    <insert id="insBoardCmt" parameterType="BoardCmtInsDto">
+        insert into t_board_cmt
+        set
+        iboard = #{iboard},
+        ctnt = #{ctnt},
+        writer = #{writer},
+        pw = #{pw}
+    </insert>
+    -->
+    <select id="selBoardCmt" resultType="BoardCmtVo">
+        select icmt, ctnt, writer, created_at createdAt
+        from t_board_cmt
+        where iboard = #{iboard}
+    </select>
+
+
+    <delete id="delBoardCmt" parameterType="BoardCmtDelDto">
+        delete from t_board_cmt
+        where
+            icmt = ${icmt} and pw = #{pw}
+    </delete>
+
+
+</mapper>
+
