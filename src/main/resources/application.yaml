@@ -1,4 +1,9 @@
+# db config
 spring:
+  servlet:
+    multipart:
+      max-file-size: 3MB
+      max-request-size: 12MB
   mvc:
     static-path-pattern: /static/**
   datasource:
@@ -9,11 +14,15 @@ spring:
 
 
 mybatis:
-  type-aliases-package: com.green.board7 #?????
-  mapper-locations: mapper/**/*.xml # ** : ?? ???. * : ?? xml???
+  type-aliases-package: com.green.board7
+  mapper-locations: mapper/**/*.xml
 
 
 # swagger / http://localhost:8080/swagger 로 접속하게 해줌
 springdoc:
   swagger-ui:
     path: /swagger.html
+
+# 개인적인 설정 내용. 역슬래시말고 그냥 슬래시 해도됨
+file:
+  dir: D:/download/
