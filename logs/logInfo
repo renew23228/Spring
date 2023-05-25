@@ -708,3 +708,22 @@ Caused by: java.lang.ClassNotFoundException: com.green.board7.Fileupload.Fileupl
 [2023-05-25 12:57:31.276 INFO  restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
 [2023-05-25 12:57:31.279 INFO  restartedMain] [com.green.board7.Board7Application] Started Board7Application in 0.298 seconds (process running for 2091.376)
 [2023-05-25 12:57:31.279 INFO  restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+[2023-05-25 13:01:24.256 INFO  background-preinit] [org.hibernate.validator.internal.util.Version] HV000001: Hibernate Validator 8.0.0.Final
+[2023-05-25 13:01:24.287 INFO  restartedMain] [com.green.board7.Board7Application] Starting Board7Application using Java 17.0.7 with PID 12728 (D:\spring\board7\target\classes started by Administrator in D:\spring\board7)
+[2023-05-25 13:01:24.288 INFO  restartedMain] [com.green.board7.Board7Application] No active profile set, falling back to 1 default profile: "default"
+[2023-05-25 13:01:24.318 INFO  restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-05-25 13:01:24.318 INFO  restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-05-25 13:01:25.031 INFO  restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[2023-05-25 13:01:25.036 INFO  restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2023-05-25 13:01:25.037 INFO  restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+[2023-05-25 13:01:25.037 INFO  restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2023-05-25 13:01:25.075 INFO  restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+[2023-05-25 13:01:25.076 INFO  restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 758 ms
+[2023-05-25 13:01:25.573 INFO  restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+[2023-05-25 13:01:25.585 INFO  restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2023-05-25 13:01:25.597 INFO  restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[2023-05-25 13:01:25.604 INFO  restartedMain] [com.green.board7.Board7Application] Started Board7Application in 1.655 seconds (process running for 2.034)
+[2023-05-25 13:03:13.121 INFO  http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-05-25 13:03:13.121 INFO  http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[2023-05-25 13:03:13.121 INFO  http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 0 ms
+[2023-05-25 13:03:13.131 WARN  http-nio-8080-exec-1] [org.springframework.web.servlet.PageNotFound] No mapping for GET /
